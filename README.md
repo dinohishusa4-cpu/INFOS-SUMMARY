@@ -23,110 +23,106 @@ The main purpose of a Hospital Management System is to:
 
 ---
 
-## 3. Main Entities / Tables
+## 3. Main Entities(Tables)
 
 ### Patient
 Stores information about patients.
-
-Examples:
-- Patient ID
-- Name
-- Age
-- Gender
-- Phone number
+Like
+. Patient ID
+. Name
+. Age
+. Gender
+. Phone number
 
 ### Doctor
 Stores information about doctors.
-
-Examples:
-- Doctor ID
-- Name
-- Specialization
-- Phone number
+Like
+. Doctor ID
+. Name
+. Specialization
+. Phone number
 
 ### Appointment
 Stores information about appointments between patients and doctors.
-
-Examples:
-- Appointment ID
-- Patient ID
-- Doctor ID
-- Appointment date
-- Appointment time
+Like
+. Appointment ID
+. Patient ID
+. Doctor ID
+. Appointment date
+. Appointment time
 
 ### Room
 Stores information about hospital rooms.
-
-Examples:
-- Room ID
-- Room number
-- Room type
-- Availability
+Like
+. Room ID
+. Room number
+. Room type
+. Availability
 
 ### Admission
 Stores information about patients who are admitted to the hospital.
+Like
+. Admission ID
+. Patient ID
+. Room ID
+. Admission date
 
-Examples:
-- Admission ID
-- Patient ID
-- Room ID
-- Admission date
-
-### Discharge
-Stores information about patients when they leave the hospital.
-
-Examples:
-- Discharge ID
-- Patient ID
-- Discharge date
-- Discharge summary
 
 ### Nurse
 Stores information about nurses working in the hospital.
+Like
+. Nurse ID
+. Name
+. Department
+. Phone number
 
-Examples:
-- Nurse ID
-- Name
-- Department
-- Phone number
-
-### Medical Store
+### Medical Info
 Stores information about medicines and medical supplies.
+Lil baby
+. Medicine ID
+. Medicine name
+. Quantity
+. Price
 
-Examples:
-- Medicine ID
-- Medicine name
-- Quantity
-- Price
 
----
 
 ## 4. Database Relationships
 
 The tables are connected using relationships.
 
-For example:
+EG:
 
-**Patient → Appointment ← Doctor**
+**Patient -> Appointment <- Doctor**
 
 A patient can have multiple appointments, and a doctor can have multiple appointments.
 
-**Patient → Admission → Room**
+**Patient -> Admission -> Room**
 
 A patient can be admitted to a room.
 
 Primary keys and foreign keys are used to connect the tables.
 
----
 
-## 5. SQL Commands Used
 
-Some SQL commands that can be used in this project include:
+## 5. SQL Commands We will use
 
-```sql
+Below are some of the SQL commands we gonna use on this project:
+
 CREATE TABLE;
 INSERT;
 SELECT;
 UPDATE;
 DELETE;
 ALTER TABLE;
+
+# 6. Benefits 
+
+. Reduces paperwork
+. Organize info
+. Make records easier to find
+.Improves data organization
+
+
+# 7. Conclusion
+
+The hospital management system is a useful SQL database project coz it shows how a real life hospital can sort and manage complex info.
