@@ -115,7 +115,7 @@ UPDATE;
 DELETE;
 ALTER TABLE;
 
-# 6. Benefits 
+## 6. Benefits 
 
 . Reduces paperwork
 . Organize info
@@ -123,6 +123,6 @@ ALTER TABLE;
 .Improves data organization
 
 
-# 7. Conclusion
+## 7. Conclusion
 
 The hospital management system is a useful SQL database project coz it shows how a real life hospital can sort and manage complex info.
